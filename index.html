@@ -1,16 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arapey|Berkshire+Swash" rel="stylesheet">
     <meta charset="utf-8">
     <title>Blog Demo</title>
 
   <style>
     html{
-      font-family: 'Berkshire Swash', cursive;
+      /*font-family: 'Arapey', serif;*/
+
+    }
+    header{
+      text-align: center;
+      /*background-size: contain;*/
+      background-size: auto;
+      background: url("images/Barbados.jpg")
+      /*color: white;*/
+    
+    }
+
+    img{
+      border: 5px solid white;
+      border-radius: 20px;
+      height: 256px;
+      width: 256px;
+      margin-top: 20px;
+    }
+
+    article{
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+
+    }
+    a{
+      color: white;
 
     }
 
+    li{
+      padding: 10px;
+      display: inline;
+      list-style-type: none;
+    }
 
 
   </style>
@@ -20,12 +52,12 @@
 
   <body>
     <header>
-      <img src="images/Barbados.jpg">
+      <img src="images/Mehoody.png" alt="guy in a hoody">
       <h1>Richard's Blog</h1>
       <ul>
-        <li>About Me</li>
-        <li>Be Inspired</li>
-        <li>Quote Of The Day</li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Be Inspired</a></li>
+        <li><a href="#">Quote Of The Day</a></li>
       </ul>
     </header>
 
